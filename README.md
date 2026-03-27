@@ -71,7 +71,7 @@ This repository is my hands-on journey into building agentic systems. Here’s w
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/Agentic_AI-Multi-Agent-Orchestration.git
+git clone https://github.com/Kritimbist/Agentic_AI-Multi-Agent-Orchestration.git
 cd Agentic_AI-Multi-Agent-Orchestration
 ```
 
