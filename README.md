@@ -66,34 +66,6 @@ This repository is my hands-on journey into building agentic systems. Here’s w
 
 ---
 
-## 🚀 Getting Started
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/Kritimbist/Agentic_AI-Multi-Agent-Orchestration.git
-cd Agentic_AI-Multi-Agent-Orchestration
-```
-
-### 2. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Set up environment variables
-
-```bash
-export OPENAI_API_KEY="your_api_key"
-```
-
-### 4. Run examples
-
-```bash
-python main.py
-```
-
----
 
 ## 🔁 How I Approach Multi-Agent Systems
 
