@@ -100,21 +100,16 @@ This approach allows me to build systems that can handle **complex, multi-step p
 
 ---
 
-## 🤝 Contributing
+# GenAI vs Agentic AI: The Role of Context and Reliability
 
-I welcome contributions!
-Feel free to fork this repo, open issues, or submit pull requests.
 
----
+I understand that GenAI models mainly rely on pre-trained data, which means they do not inherently have access to real-time, task-specific, or updated information. Because of this, I see that they require relevant, timely, and accurate context to generate outputs that are truly useful, safe, and aligned with a specific task. Without sufficient context, the model can produce responses that sound plausible but are actually incorrect or even nonsensical—this is what I recognize as hallucination. In some cases, the answer may be generally correct but not applicable to the specific situation, which still makes it unreliable.
 
-## 📄 License
+On the other hand, I see agentic AI as an approach that addresses these limitations. Instead of relying only on pre-trained knowledge, agentic systems are designed to actively manage and inject context throughout the process. They can break down complex tasks, retrieve relevant information from external sources, and adapt their actions based on the situation.
 
-This project is licensed under the MIT License.
+I also understand that agentic AI introduces structure and coordination. Rather than generating a single response, it enables step-by-step reasoning, task delegation, and interaction with tools or data systems. This allows the system to maintain better context, reduce errors, and produce more accurate and actionable outcomes.
 
----
+In this way, I see GenAI as providing the core intelligence, while agentic AI extends it into a more reliable and practical system by ensuring that the right context is available at the right time.
 
-## ⭐ Support
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ff57aa84-3782-46e4-beff-dfee049c48ea" />
 
-If you find this repository helpful, consider giving it a star ⭐
-
----
