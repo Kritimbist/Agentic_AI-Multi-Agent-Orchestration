@@ -113,3 +113,18 @@ In this way, I see GenAI as providing the core intelligence, while agentic AI ex
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ff57aa84-3782-46e4-beff-dfee049c48ea" />
 
+
+# Introducing agentic AI systems
+
+I understand an AI agent as a system, often powered by LLMs, that can perceive its environment, make decisions, and take actions to achieve specific goals. I see that such systems are not just reactive but also proactive—they can respond to changes while also taking initiative toward achieving objectives. In some cases, they can even interact with other agents, showing a form of collaborative ability.
+
+I recognize that AI agents operate in a continuous cycle of sensing, reasoning, planning, and acting. Understanding this loop helps me see how these systems function and how effective agent-based solutions can be designed.
+
+I also understand that agentic systems can be categorized into two types. In one case, a single agent handles tasks by interacting with data or systems. In another case, multiple specialized agents work together, coordinating and communicating to solve more complex problems in a decentralized way.
+
+Overall, I see agentic systems as an important step toward more advanced AI, as they combine the capabilities of GenAI with structured decision-making and action, enabling higher levels of automation and more effective problem-solving.
+
+## The anatomy of agentic AI
+
+<img width="690" height="456" alt="image" src="https://github.com/user-attachments/assets/e7cb550d-8cc4-4c76-818b-6bd436dae2ec" />
+
