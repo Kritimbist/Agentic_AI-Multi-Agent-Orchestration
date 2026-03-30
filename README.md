@@ -128,3 +128,19 @@ Overall, I see agentic systems as an important step toward more advanced AI, as 
 
 <img width="690" height="456" alt="image" src="https://github.com/user-attachments/assets/e7cb550d-8cc4-4c76-818b-6bd436dae2ec" />
 
+# Core components
+
+I understand that the core building blocks of agentic systems are the agents themselves and the environments they interact with. In such systems, I see each agent as operating semi-autonomously—it can perceive its environment, reason about it, make decisions, and take actions to achieve specific goals. These interactions can happen in digital environments like APIs and databases, and sometimes even in physical environments through sensors and actuators. In multi-agent systems, I recognize that coordination is often achieved through shared memory or communication protocols, allowing agents to exchange information and align their actions.
+
+I also understand the internal structure of an agent. Each agent is driven by goals, which define what it is trying to achieve. It gathers information through perception, which helps it build context—something I see as critical for accurate decision-making. The reasoning component processes this information, often using LLMs, to draw insights and understand relationships. Based on this, the agent creates a plan, which is then executed through actions using tools like APIs or other systems.
+
+I see memory as an essential part of this process, as it allows the agent to store past experiences and maintain context over time. In multi-agent systems, I also recognize the importance of coordination, where agents communicate and collaborate to achieve shared objectives.
+
+I understand that agents use mechanisms like function calling to interact with tools. The model decides when to use a tool, selects the appropriate one, and provides the necessary inputs, allowing it to take meaningful actions beyond just generating text.
+
+Overall, I see agents as operating in a continuous loop—sensing, reasoning, planning, acting, and updating based on feedback. This loop helps them adapt, improve decisions over time, and handle complex, real-world tasks more effectively.
+
+<img width="841" height="633" alt="image" src="https://github.com/user-attachments/assets/08033e80-b35f-4979-b176-eaee991ccd43" />
+
+
+
