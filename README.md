@@ -144,3 +144,18 @@ Overall, I see agents as operating in a continuous loop—sensing, reasoning, pl
 
 
 
+## Table 1.2 – GenAI Levels of Maturity
+
+| Level | Title / Focus                     | Brief Description and Key Activities |
+|------|----------------------------------|--------------------------------------|
+| 0    | Prepare Data (Data Foundation)   | Acquire, generate, clean, curate, and govern data. Focus on quality, relevance, licensing, and accessibility. Essential prerequisite. |
+| 1    | Select Model & Prompt/Serve      | Select pretrained models, apply prompt engineering, and serve via APIs for basic tasks (generation, Q&A). Includes basic tool use (function calling). |
+| 2    | Contextual Enhancement (RAG)     | Use Retrieval-Augmented Generation (RAG) to fetch external context (documents, databases) to improve accuracy and relevance (e.g., chatbot retrieving policy info). |
+| 3    | Tuning for Specificity           | Fine-tune models (PEFT or full fine-tuning) using domain-specific data to specialize knowledge, terminology, or behavior (e.g., sales jargon tuning). |
+| 4    | Grounding & Evaluation           | Implement grounding (link outputs to sources/citations) and robust evaluation (accuracy, bias, safety) to ensure trust and reliability. |
+| 5    | Single-Agent Systems             | Build systems around one autonomous AI agent handling multi-step tasks (reasoning, planning, tool use via function calling/MCP). Requires LLMOps/AgentOps. Example: travel booking or SAR reporting agent. |
+| 6    | Multi-Agent Systems              | Deploy multiple specialized agents that collaborate, coordinate, communicate (A2A), and negotiate. Includes structured workflows (central supervisor) and advanced decentralized/swarm systems for complex problems. |
+
+
+
+<img width="1261" height="746" alt="image" src="https://github.com/user-attachments/assets/e912fbb1-7318-4ca4-8fb9-aeaa5308d01f" />
