@@ -159,3 +159,40 @@ Overall, I see agents as operating in a continuous loop—sensing, reasoning, pl
 
 
 <img width="1261" height="746" alt="image" src="https://github.com/user-attachments/assets/e912fbb1-7318-4ca4-8fb9-aeaa5308d01f" />
+
+
+## Enabling agent communication: from tools to collaboration
+
+I explore the distinction between MCP by Anthropic and the A2A protocol by Google:
+
+I see MCP as being all about how a single AI agent or LLM connects to tools, data, and external systems. I think of it as giving my AI access to everything it needs to do its job—such as search tools, databases, or prebuilt prompts. To me, it’s about vertical integration: connecting the agent to its tools.
+
+On the other hand, I understand A2A as focusing on how different AI agents communicate with each other, regardless of which company or framework they come from. I view it as giving AI agents a shared language so they can collaborate, delegate tasks, and work as a team. This represents horizontal integration—connecting agents to other agents.
+
+I use this simple mental model:
+
+* MCP = my AI agent connects to tools
+* A2A = my AI agents connect to each other
+
+I also note that these protocols are designed to work together:
+
+1. I can have an orchestrator agent that uses A2A to delegate tasks to other agents.
+2. Those agents then use MCP to access the tools and data they need.
+3. The results flow back through A2A, allowing me to complete a powerful, collaborative workflow.
+
+When I look at how these protocols co-exist, I imagine a distributed multi-agent architecture with two agents (Agent A and Agent B), each operating independently with:
+
+* A local AI stack (LLM orchestration, memory, and toolchain)
+* Remote access to external tools and data (via MCP)
+
+I understand that the remote communication between Agent A and Agent B is enabled by the A2A protocol. This highlights two key components for agent registry and discovery:
+
+* Agent server: an endpoint that exposes the agent’s A2A interface
+* Agent card: a discovery mechanism that advertises the agent’s capabilities
+
+Finally, I realize that for an agent to effectively use these external communication protocols, it must first have a strong internal architecture. From there, I can dive deeper into the core components that allow an agent to process information, reason, and decide on its actions.
+
+<img width="1105" height="500" alt="image" src="https://github.com/user-attachments/assets/ee4fa371-afe6-4b53-9f28-2d38043d736c" />
+
+
+
