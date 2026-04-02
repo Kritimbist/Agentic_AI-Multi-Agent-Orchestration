@@ -195,4 +195,4 @@ Finally, I realize that for an agent to effectively use these external communica
 <img width="1105" height="500" alt="image" src="https://github.com/user-attachments/assets/ee4fa371-afe6-4b53-9f28-2d38043d736c" />
 
 
-
+## The MCP server
