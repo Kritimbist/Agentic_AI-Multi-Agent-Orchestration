@@ -196,3 +196,9 @@ Finally, I realize that for an agent to effectively use these external communica
 
 
 ## The MCP server
+
+I understand that this mechanism plays a critical role in connecting an agent to external tools, databases, and services through a standardized API such as JSON-RPC. It allows the agent to act as a client, sending requests to retrieve information or trigger specific actions like searching documents, querying systems, or executing workflows.
+
+I see that this capability is essential because it enables the agent to bring real-time, external data into the LLM’s reasoning process. This improves the accuracy, relevance, and reliability of the responses by grounding them in actual data rather than relying only on pre-trained knowledge.
+
+For example, I recognize that an agent can retrieve information like a product catalog from an external system and use it to generate more context-aware and useful insights.
