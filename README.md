@@ -214,3 +214,14 @@ However, I also understand that an LLM is just one component of a larger system.
 I realize that making an LLM suitable for agentic systems is not just about choosing the most powerful model. Instead, I need to consider factors like task requirements, efficiency, cost, and speed. In some cases, smaller or specialized models may be more effective, and combining multiple models for different roles can lead to better performance.
 
 Overall, I see that building effective agentic AI systems involves carefully selecting and integrating LLMs within a broader architecture, ensuring they work efficiently as part of a coordinated and goal-driven system.
+
+## Role of LLMs in agentic systems
+
+
+I understand that in agentic AI systems, LLMs play a central role by providing the core intelligence or “brain” of the agent. While an agent includes multiple components, I see the LLM as the key element that connects perception to action.
+
+I recognize that the process begins with understanding. As an agent receives inputs—such as user requests or unstructured data—I see the LLM interpreting and transforming this raw information into meaningful context using its language understanding and pattern recognition capabilities.
+
+Once the information is understood, I see the LLM supporting reasoning, planning, and decision-making. It helps the agent analyze the situation, align it with goals, and break down complex tasks into smaller, manageable steps. This allows the agent to generate structured plans and decide on appropriate actions.
+
+Overall, I understand that LLMs enable agents to move from simply receiving information to intelligently acting on it, making them essential for handling complex, multi-step tasks in real-world scenarios.
