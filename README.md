@@ -225,3 +225,6 @@ I recognize that the process begins with understanding. As an agent receives inp
 Once the information is understood, I see the LLM supporting reasoning, planning, and decision-making. It helps the agent analyze the situation, align it with goals, and break down complex tasks into smaller, manageable steps. This allows the agent to generate structured plans and decide on appropriate actions.
 
 Overall, I understand that LLMs enable agents to move from simply receiving information to intelligently acting on it, making them essential for handling complex, multi-step tasks in real-world scenarios.
+
+<img width="847" height="928" alt="image" src="https://github.com/user-attachments/assets/6ac30b69-024b-4212-a941-263fa30f1664" />
+
