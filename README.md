@@ -228,3 +228,13 @@ Overall, I understand that LLMs enable agents to move from simply receiving info
 
 <img width="847" height="928" alt="image" src="https://github.com/user-attachments/assets/6ac30b69-024b-4212-a941-263fa30f1664" />
 
+
+
+
+I understand that the LLM at the core of an orchestrator agent does more than just interpret information—it actively plans how tasks should be executed. I see this planning as part of an iterative cycle where the agent continuously reasons and takes actions.
+
+I recognize that simpler agentic systems follow a loop similar to the ReAct (Reason–Act) framework, where reasoning and action are tightly connected. As systems become more advanced, I see them incorporating self-reflection and feedback mechanisms, allowing the agent to learn from its actions and improve over time—this is known as Reflexion.
+
+For more complex problems, I understand that agents can use advanced approaches like Tree-of-Thought (ToT), where multiple reasoning paths are explored before making a decision. This enables more deliberate and effective problem-solving.
+
+Overall, I see that the choice of framework depends on the complexity of the task. Simpler tasks may require basic reasoning-action loops, while more complex scenarios benefit from self-reflection and multi-path reasoning to achieve higher levels of intelligence and autonomy.
