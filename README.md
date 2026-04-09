@@ -238,3 +238,20 @@ I recognize that simpler agentic systems follow a loop similar to the ReAct (Rea
 For more complex problems, I understand that agents can use advanced approaches like Tree-of-Thought (ToT), where multiple reasoning paths are explored before making a decision. This enables more deliberate and effective problem-solving.
 
 Overall, I see that the choice of framework depends on the complexity of the task. Simpler tasks may require basic reasoning-action loops, while more complex scenarios benefit from self-reflection and multi-path reasoning to achieve higher levels of intelligence and autonomy.
+
+### Table 2.1 – Illustrative LLM-driven planning cycle for loan processing
+
+| Step | Phase                     | Description (LoanFlow Orchestrator Agent) |
+|------|--------------------------|-------------------------------------------|
+| 1    | Goal / Initial State     | New loan application package received. |
+| 2    | LLM Reason (Thought)    | Ensure all submitted documents are present and legible, then extract key information. |
+| 3    | LLM Action (Tool Use)   | Invoke `DocumentValidationAndParsingTool` with application files as input. |
+| 4    | Observation (Result)    | Tool returns extracted data (e.g., applicant name, income, loan amount) and validation status (All clear). |
+| 5    | LLM Reason (Thought)    | Documents validated. Next, assess financial risk: check credit score and run fraud detection. |
+| 6    | LLM Action (Tool Use)   | Invoke `CreditCheckTool` (with applicant ID) and `FraudDetectionTool` (with application details). |
+| 7    | Observation (Result)    | Receives credit score (e.g., 750) and fraud risk assessment (e.g., Low Risk). |
+| 8    | LLM Reason (Thought)    | Credit score is strong, fraud risk low. Next step: regulatory and internal policy compliance check. |
+| 9    | LLM Action (Tool Use)   | Invoke `ComplianceCheckTool` with application data and risk assessments. |
+| 10   | Observation (Result)    | Tool returns compliance status (e.g., Compliant). |
+| 11   | LLM Reason (Thought)    | All checks passed. Application is ready for underwriting review or final decision. |
+| 12   | LLM Action (Decision)  | Prepare summary report for human underwriter or invoke `FinalDecisionTool`. |
