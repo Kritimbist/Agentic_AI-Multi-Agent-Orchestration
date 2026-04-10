@@ -255,3 +255,17 @@ Overall, I see that the choice of framework depends on the complexity of the tas
 | 10   | Observation (Result)    | Tool returns compliance status (e.g., Compliant). |
 | 11   | LLM Reason (Thought)    | All checks passed. Application is ready for underwriting review or final decision. |
 | 12   | LLM Action (Decision)  | Prepare summary report for human underwriter or invoke `FinalDecisionTool`. |
+
+
+
+# Model selection: choosing the right foundation
+
+I understand that selecting the right LLM is a critical step in building an effective agentic system. I see that the choice of model directly impacts not only the agent’s capabilities but also its performance, cost, reliability, and overall maintainability.
+
+I recognize that choosing an LLM is not just about picking the most powerful model. Instead, I need to evaluate how well a model fits the specific task. This includes assessing its reasoning ability, instruction-following, knowledge scope, and especially its capability to use tools and perform function calling—something I see as essential for enabling agents to take actions beyond text generation.
+
+I also understand the importance of the model’s context window. Larger context windows allow the agent to process more information at once, maintain longer interactions, and reduce complexity in handling data, which improves overall performance.
+
+Beyond capabilities, I see operational factors as equally important. I must consider trade-offs between large, general-purpose models and smaller, specialized ones. Smaller models can often provide faster responses and lower costs, making them more efficient for specific tasks within an agentic system.
+
+Finally, I recognize that factors like data privacy, integration complexity, and system reliability are crucial. Ensuring that the model is robust, secure, and resistant to errors or biases is essential for building trustworthy, production-ready agentic AI systems.
