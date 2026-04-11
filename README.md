@@ -269,3 +269,16 @@ I also understand the importance of the model’s context window. Larger context
 Beyond capabilities, I see operational factors as equally important. I must consider trade-offs between large, general-purpose models and smaller, specialized ones. Smaller models can often provide faster responses and lower costs, making them more efficient for specific tasks within an agentic system.
 
 Finally, I recognize that factors like data privacy, integration complexity, and system reliability are crucial. Ensuring that the model is robust, secure, and resistant to errors or biases is essential for building trustworthy, production-ready agentic AI systems.
+
+# Context window size
+
+I understand that the context window size is one of the most critical factors when selecting an LLM for agentic systems. A larger context window allows the model to process and retain more information at once, which I see as essential for handling complex tasks and maintaining continuity.
+
+I recognize that larger context windows enable agents to manage long conversations, remember past interactions, and generate more coherent and context-aware responses. They also allow the agent to process large documents or datasets in a single pass, reducing the need for complex chunking and improving overall understanding.
+
+I also see that for multi-step tasks, a large context window is important because it helps maintain information across different stages of the process. This ensures that earlier decisions and context are not lost, leading to more accurate and consistent outcomes. Additionally, it supports techniques like in-context learning, where the model adapts based on examples provided within the prompt.
+
+However, I understand that a larger context window is not always fully effective in practice. I need to consider how well the model actually utilizes it, as performance can degrade with longer inputs or depending on where important information is placed. I also recognize issues like increased computational cost, latency, and potential inefficiencies if the task does not require such large context.
+
+Overall, I see that choosing the right context window is about balance—ensuring it aligns with the complexity and needs of the agentic system while maintaining efficiency and reliability.
+
