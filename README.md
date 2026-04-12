@@ -282,3 +282,4 @@ However, I understand that a larger context window is not always fully effective
 
 Overall, I see that choosing the right context window is about balance—ensuring it aligns with the complexity and needs of the agentic system while maintaining efficiency and reliability.
 
+# Native support for tool use and function calling
