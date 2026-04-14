@@ -283,3 +283,9 @@ However, I understand that a larger context window is not always fully effective
 Overall, I see that choosing the right context window is about balance—ensuring it aligns with the complexity and needs of the agentic system while maintaining efficiency and reliability.
 
 # Native support for tool use and function calling
+
+For an LLM to be truly agent-ready, its ability to effectively interact with tools
+through mechanisms such as function calling is non-negotiable. Function
+calling capabilities represent a major advancement, transforming LLMs from
+mere text generators into active participants that can trigger actions and
+interact with external systems.
