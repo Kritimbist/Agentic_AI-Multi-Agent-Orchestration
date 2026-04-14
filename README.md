@@ -289,3 +289,9 @@ through mechanisms such as function calling is non-negotiable. Function
 calling capabilities represent a major advancement, transforming LLMs from
 mere text generators into active participants that can trigger actions and
 interact with external systems.
+
+When selecting an LLM, a key criterion is its native support for a reliable
+function-calling mechanism. This means the model must be able to accurately
+identify when a function needs to be called based on the user's intent or the
+ongoing task. It also needs to determine which specific function to call from a
+potentially long list of available tools, and cr
